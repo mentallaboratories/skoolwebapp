@@ -46,7 +46,7 @@ export default function Hero() {
             <Tags iconId="icon-home" items={homeTagItems} />
 
             <img
-              src="../images/layout/study.png"
+              src="/images/layout/study.png"
               alt="Lesson layout"
               width="400"
               className="hero-image"
