@@ -36,13 +36,13 @@
           "lesson_tags": {
             "category_icon": "icon-home",
             "tags": [
-              { "label": "#index", "href": "./index.html", "highlight": true },
-              { "label": "#it", "href": "./it.html", "highlight": false },
-              { "label": "#guide", "href": "./guide.html", "highlight": false },
+              { "label": "study", "href": "./study.html", "highlight": false },
+              { "label": "#shelf", "href": "./shelf.html", "highlight": false },
+              { "label": "#worktop", "href": "./worktop.html", "highlight": false },
+              { "label": "#pinboard", "href": "./pinboard.html", "highlight": false },
+              { "label": "#calendar", "href": "./calendar.html", "highlight": false },
               { "label": "#timetable", "href": "./timetable.html", "highlight": false },
-              { "label": "#guide", "href": "./guide.html", "highlight": false },
-              { "label": "#storage", "href": "./storage.html", "highlight": false },
-              { "label": "#speaking", "href": "./speaking.html", "highlight": false }
+              { "label": "#schoolbag", "href": "./schoolbag.html", "highlight": false }
             ]
           }
         }
