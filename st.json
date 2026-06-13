@@ -174,7 +174,7 @@
             "eyebrow": "skoolTimez.some.domain/storage.html",
             "title": "Розклад\nSTORAGE",
             "description": "Збереження інформації.",
-             "paragraphs": "Тут ви навчитеся зберігати вашу конфіденційну інформацію.",
+             "paragraphs": "Тут ви навчитеся зберігати вашу конфіденційну інформацію. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "actions": [
               { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
             ]
