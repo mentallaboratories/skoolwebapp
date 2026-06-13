@@ -5,15 +5,15 @@ import Tags from './Tags';
 import Article from './Article';
 import Button from './Button';
 
-export default function Hero({ heroData = {}, siteBigImage = null }) {
+export default function Hero({ heroData = {}, lessonTags = {}, siteBigImage = null }) {
   const image = heroData.image || { src: siteBigImage || '/images/layout/study.png', alt: 'Hero illustration', width: 400 };
   const eyebrow = heroData.eyebrow || '';
   const title = heroData.title || '';
   const description = heroData.description || '';
   const actions = heroData.actions || [];
   const explainer = heroData.explainer_block || {};
-  const tags = heroData.tags || heroData.lesson_tags?.tags || [{ href: './index.html', label: '#index', active: true }];
-  const tagIcon = heroData.tags ? heroData.tags.iconId || 'icon-home' : heroData.lesson_tags?.category_icon || 'icon-home';
+  const tags = lessonTags.tags || heroData.tags || [{ href: './index.html', label: '#index', active: true }];
+  const tagIcon = lessonTags.category_icon || (heroData.tags ? heroData.tags.iconId || 'icon-home' : 'icon-home');
 
   return (
     <section className="hero">
@@ -22,11 +22,13 @@ export default function Hero({ heroData = {}, siteBigImage = null }) {
           <div>
             <Tags iconId={tagIcon} items={tags} />
 
-            <img src={image.src} alt={image.alt} width={image.width} className="hero-image" />
-
-            <p className="hero-eyebrow">{eyebrow}</p>
+             <p className="hero-eyebrow">{eyebrow}</p>
             <h1 className="hero-title" dangerouslySetInnerHTML={{ __html: title.replace(/\n/g, '<br />') }} />
             <p className="hero-desc">{description}</p>
+
+            <img src={image.src} alt={image.alt} width={image.width} className="hero-image" />
+
+           
 
             {explainer.title && (
               <Article title={explainer.title}>

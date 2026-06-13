@@ -50,7 +50,7 @@ body::before {
 ═══════════════════════════════════════════════════ */
 .container {
   max-width: 1140px; margin: 0 auto;
-  padding: 0 clamp(1.2rem, 5vw, 3rem);
+  padding: 5px;
 }
 
 /* ═══════════════════════════════════════════════════
@@ -173,7 +173,7 @@ body::before {
 /* Tags row */
 .lesson-tags {
   display: flex; flex-wrap: wrap; gap: .5rem;
-  margin-top: 1.2rem;
+  padding: 5px;
   animation: fadeUp .5s .3s ease both;
 }
 
@@ -226,7 +226,8 @@ body::before {
   background: linear-gradient(145deg, var(--ink) 0%, #162032 55%, #0d2a1f 100%);
   position: relative; overflow: hidden;
   display: flex; align-items: center;
-  padding: clamp(4rem,12vh,8rem) 0;
+  /* padding: clamp(4rem,12vh,8rem) 0; */
+  padding: 5px;
 }
 
 /* decorative circles */

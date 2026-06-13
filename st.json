@@ -36,7 +36,9 @@
           "lesson_tags": {
             "category_icon": "icon-home",
             "tags": [
-              { "label": "#index", "href": "./index.html", "highlight": true }
+              { "label": "#index", "href": "./index.html", "highlight": true },
+              { "label": "#it", "href": "./it.html", "highlight": false },
+              { "label": "#guide", "href": "./guide.html", "highlight": false }
             ]
           }
         }
@@ -69,7 +71,9 @@
           "lesson_tags": {
             "category_icon": "icon-it",
             "tags": [
-              { "label": "#it", "href": "./it.html", "highlight": true }
+              { "label": "#index", "href": "./index.html", "highlight": false },
+              { "label": "#it", "href": "./it.html", "highlight": true },
+              { "label": "#guide", "href": "./guide.html", "highlight": false }
             ]
           }
         }
@@ -101,7 +105,9 @@
           },
           "lesson_tags": {
             "category_icon": "icon-flower",
-            "tags": [ { "label": "#guide", "href": "./guide.html", "highlight": true } ]
+            "tags": [ { "label": "#index", "href": "./index.html", "highlight": false },
+              { "label": "#it", "href": "./it.html", "highlight": false },
+              { "label": "#guide", "href": "./guide.html", "highlight": true } ]
           }
         }
       }

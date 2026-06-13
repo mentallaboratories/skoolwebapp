@@ -2,7 +2,7 @@
 // A labelled group of Tag chips with an optional leading icon button.
 // Props:
 //   iconId   — sprite icon for the header button
-//   items    — [{ href, label, active }]
+//   items    — [{ href, label, active, highlight }]
 // Usage:
 //   <Tags iconId="icon-home" items={homeTagItems} />
 
@@ -11,13 +11,13 @@ import Tag from './Tag';
 
 export default function Tags({ iconId, items = [] }) {
   return (
-    <div className="container" style={{ backgroundColor: '#0d1117', padding: '2rem' }}>
-      {iconId && (
+    <div className="container" style={{ backgroundColor: '#0d1117' }}>
+      {/* {iconId && (
         <Button variant="routine" className="create__mode" iconId={iconId} iconOnly />
-      )}
+      )} */}
       <div className="lesson-tags">
-        {items.map(({ href, label, active }) => (
-          <Tag key={href} href={href} active={active}>
+        {items.map(({ href, label, active, highlight }) => (
+          <Tag key={href} href={href} active={highlight ?? active}>
             {label}
           </Tag>
         ))}

@@ -36,7 +36,11 @@ export default function App() {
     <>
       <Header navItems={NAV_ITEMS} currentHref={CURRENT_HREF} />
       <main>
-        <Hero heroData={homepage?.layout?.main_content?.hero} siteBigImage={siteData['big-image']} />
+        <Hero
+          heroData={homepage?.layout?.main_content?.hero}
+          lessonTags={homepage?.layout?.main_content?.lesson_tags}
+          siteBigImage={siteData['big-image']}
+        />
       </main>
       <Footer />
     </>
