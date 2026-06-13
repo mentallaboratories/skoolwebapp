@@ -260,11 +260,11 @@ body::before {
 
 /* Giant 404 */
 .hero-code {
-  font-family: 'Unbounded', sans-serif;
-  font-size: clamp(5rem, 18vw, 13rem);
-  font-weight: 900; line-height: .9;
-  color: transparent;
-  -webkit-text-stroke: 3px rgba(201,168,76,.35);
+  font-family: 'Courier New', monospace;
+  font-size: 10px;
+  font-weight: 90; line-height: .9;
+  color: limegreen;
+  -webkit-text-stroke: 1px rgba(201,168,76,.35);
   position: relative; user-select: none;
 }
 .hero-code::after {

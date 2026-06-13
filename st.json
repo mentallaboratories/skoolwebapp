@@ -36,7 +36,7 @@
           "lesson_tags": {
             "category_icon": "icon-home",
             "tags": [
-              { "label": "study", "href": "./study.html", "highlight": false },
+              { "label": "#study", "href": "./study.html", "highlight": false },
               { "label": "#shelf", "href": "./shelf.html", "highlight": false },
               { "label": "#worktop", "href": "./worktop.html", "highlight": false },
               { "label": "#pinboard", "href": "./pinboard.html", "highlight": false },
@@ -73,12 +73,15 @@
             ]
           },
           "lesson_tags": {
-            "category_icon": "icon-it",
+            "category_icon": "icon-home",
             "tags": [
-              { "label": "#index", "href": "./index.html", "highlight": false },
-              { "label": "#it", "href": "./it.html", "highlight": true },
-              { "label": "#guide", "href": "./guide.html", "highlight": false }
-            ]
+              { "label": "#information", "href": "./index.html", "highlight": true },
+              { "label": "#gadget", "href": "./it.html", "highlight": false },
+              { "label": "#soft", "href": "./guide.html", "highlight": false },
+              { "label": "#hardware", "href": "./timetable.html", "highlight": false },
+              { "label": "#cybersecurity", "href": "./guide.html", "highlight": false },
+              { "label": "#internet", "href": "./storage.html", "highlight": false },
+              { "label": "#coding", "href": "./guide.html", "highlight": false }]
           }
         }
       }
@@ -110,14 +113,13 @@
           "lesson_tags": {
             "category_icon": "icon-home",
             "tags": [
-              { "label": "#index", "href": "./index.html", "highlight": true },
-              { "label": "#it", "href": "./it.html", "highlight": false },
-              { "label": "#guide", "href": "./guide.html", "highlight": false },
-              { "label": "#timetable", "href": "./timetable.html", "highlight": false },
-              { "label": "#guide", "href": "./guide.html", "highlight": false },
-              { "label": "#storage", "href": "./storage.html", "highlight": false },
-              { "label": "#speaking", "href": "./speaking.html", "highlight": false }
-            ]
+              { "label": "#know", "href": "./index.html", "highlight": true },
+              { "label": "#get", "href": "./it.html", "highlight": false },
+              { "label": "#use", "href": "./guide.html", "highlight": false },
+              { "label": "#analyze", "href": "./timetable.html", "highlight": false },
+              { "label": "#evaluate", "href": "./guide.html", "highlight": false },
+              { "label": "#create", "href": "./storage.html", "highlight": false }
+]
           }
         }
       }
@@ -148,9 +150,13 @@
           },
           "lesson_tags": {
             "category_icon": "icon-flower",
-            "tags": [ { "label": "#index", "href": "./index.html", "highlight": false },
-              { "label": "#it", "href": "./it.html", "highlight": false },
-              { "label": "#guide", "href": "./guide.html", "highlight": true } ]
+            "tags": [ { "label": "#time", "href": "./index.html", "highlight": false },
+              { "label": "#table", "href": "./it.html", "highlight": false },
+              { "label": "#timetable", "href": "./guide.html", "highlight": true },
+               { "label": "#daybook", "href": "./guide.html", "highlight": true },
+                { "label": "#calendar", "href": "./guide.html", "highlight": true },
+                { "label": "#planner", "href": "./guide.html", "highlight": true },
+                { "label": "#history", "href": "./guide.html", "highlight": true }]
           }
         }
       }
@@ -181,10 +187,21 @@
           },
           "lesson_tags": {
             "category_icon": "icon-flower",
-            "tags": [ { "label": "#index", "href": "./index.html", "highlight": false },
-              { "label": "#it", "href": "./it.html", "highlight": false },
-              { "label": "#guide", "href": "./guide.html", "highlight": true } ]
-          }
+            "tags": [ { "label": "#progress", "href": "./index.html", "highlight": false },
+              { "label": "#cloud", "href": "./it.html", "highlight": false },
+              { "label": "#local", "href": "./guide.html", "highlight": true }, 
+               { "label": "#video", "href": "./guide.html", "highlight": true },
+                { "label": "#photo", "href": "./guide.html", "highlight": true },
+                { "label": "#document", "href": "./guide.html", "highlight": true },
+                { "label": "#passwords", "href": "./guide.html", "highlight": true }
+        
+            
+            
+            ]
+              
+         
+         
+            }
         }
       }
     }
