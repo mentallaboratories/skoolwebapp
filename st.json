@@ -24,7 +24,7 @@
         },
         "main_content": {
           "hero": {
-            "image": { "src": "/images/layout/study.png", "alt": "Homepage illustration", "width": 400 },
+            "image": { "src": "/images/layout/study.png", "alt": "Homepage illustration", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/index.html",
             "title": "Домашня сторінка\nHOMEPAGE",
             "description": "Стартова сторінка проєкту SkoolTimez.",
@@ -38,7 +38,11 @@
             "tags": [
               { "label": "#index", "href": "./index.html", "highlight": true },
               { "label": "#it", "href": "./it.html", "highlight": false },
-              { "label": "#guide", "href": "./guide.html", "highlight": false }
+              { "label": "#guide", "href": "./guide.html", "highlight": false },
+              { "label": "#timetable", "href": "./timetable.html", "highlight": false },
+              { "label": "#guide", "href": "./guide.html", "highlight": false },
+              { "label": "#storage", "href": "./storage.html", "highlight": false },
+              { "label": "#speaking", "href": "./speaking.html", "highlight": false }
             ]
           }
         }
@@ -59,7 +63,7 @@
         },
         "main_content": {
           "hero": {
-            "image": { "src": "/images/layout/comp-pc.png", "alt": "it", "width": 400 },
+            "image": { "src": "/images/layout/comp-pc.png", "alt": "it", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/it.html",
             "title": "Інформаційні\nтехнології",
             "description": "Тут міститься інформація про ІТ-навички та інструменти.",
@@ -94,11 +98,83 @@
         },
         "main_content": {
           "hero": {
-            "image": { "src": "/images/layout/layout-lesson.png", "alt": "Guide layout", "width": 400 },
+            "image": { "src": "/images/layout/layout-lesson.png", "alt": "Guide layout", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/guide.html",
             "title": "Довідник та інструкції\nGUIDE",
             "description": "Інструкції, алгоритми дій та корисні навчальні блоки.",
              "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
+            "actions": [
+              { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-home",
+            "tags": [
+              { "label": "#index", "href": "./index.html", "highlight": true },
+              { "label": "#it", "href": "./it.html", "highlight": false },
+              { "label": "#guide", "href": "./guide.html", "highlight": false },
+              { "label": "#timetable", "href": "./timetable.html", "highlight": false },
+              { "label": "#guide", "href": "./guide.html", "highlight": false },
+              { "label": "#storage", "href": "./storage.html", "highlight": false },
+              { "label": "#speaking", "href": "./speaking.html", "highlight": false }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "timetable",
+      "file_name": "timetable.html",
+      "route": "./timetable.html",
+      "meta": { "title": "Timetable — SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-calendar" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+            "image": { "src": "/images/layout/timetable.png", "alt": "Time layout", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/timetable.html",
+            "title": "Розклад\nTIMETABLE",
+            "description": "Управління своїм розкладом.",
+             "paragraphs": "Тут ви знайдете загальну інформацію про планування та організацію свого життя.",
+            "actions": [
+              { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-flower",
+            "tags": [ { "label": "#index", "href": "./index.html", "highlight": false },
+              { "label": "#it", "href": "./it.html", "highlight": false },
+              { "label": "#guide", "href": "./guide.html", "highlight": true } ]
+          }
+        }
+      }
+    },
+      {
+      "id": "storage",
+      "file_name": "storage.html",
+      "route": "./storage.html",
+      "meta": { "title": "storage — SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-calendar" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+            "image": { "src": "/images/layout/storage.png", "alt": "Time layout", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/storage.html",
+            "title": "Розклад\nSTORAGE",
+            "description": "Збереження інформації.",
+             "paragraphs": "Тут ви навчитеся зберігати вашу конфіденційну інформацію.",
             "actions": [
               { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
             ]

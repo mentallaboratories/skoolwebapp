@@ -20,9 +20,9 @@ export default function Hero({ heroData = {}, lessonTags = {}, siteBigImage = nu
       <div className="container">
         <div className="hero-inner">
           <div>
-            <Tags iconId={tagIcon} items={tags} />
 
              <p className="hero-eyebrow">{eyebrow}</p>
+             <Tags iconId={tagIcon} items={tags} />
             <h1 className="hero-title" dangerouslySetInnerHTML={{ __html: title.replace(/\n/g, '<br />') }} />
             <p className="hero-desc">{description}</p>
 

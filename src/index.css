@@ -100,8 +100,8 @@ body::before {
   transition: background .18s;
   cursor: pointer;
 }
-.nav__item:hover { background: rgba(201,168,76,.12); }
-.nav__item.current { background: rgba(201,168,76,.18); }
+.nav__item:hover { background: rgba(201,168,76,.12); border: 1px solid gold; }
+.nav__item.current { background: gold; }
 
 .nav__icon { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; }
 .nav__icon svg { width: 28px; height: 28px; fill: #9aa5b4; transition: fill .18s; }
@@ -229,6 +229,7 @@ body::before {
   /* padding: clamp(4rem,12vh,8rem) 0; */
   padding: 5px;
 }
+
 
 /* decorative circles */
 .hero::before, .hero::after {
@@ -680,7 +681,14 @@ body::before {
 @media(max-width:860px){
   .nav .nav__link--gdisk { display: none; }
 }
-@media(max-width:600px){
+
+
+@media(max-width:500px){
   .nav { display: none; }
-  .footer-container { grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); }
+  .menu-btn { display: block; }
+}
+
+@media(min-width:510px){
+  .nav { display: flex; }
+  .menu-btn { display: none; }
 }
