@@ -5,7 +5,7 @@
 export default function Icon({ id, size = 48, className = '' }) {
   return (
     <svg width={size} height={size} className={className} aria-hidden="true">
-      <use href={`icon.svg#${id}`} />
+      <use href={`/icon.svg#${id}`} />
     </svg>
   );
 }

@@ -1,0 +1,107 @@
+{
+  "project": "SkoolTimez",
+  "version": "2024-2025",
+  "big-image": "/images/layout/brain.png",
+  "pages": [
+
+
+
+    
+    {
+      "id": "index",
+      "file_name": "index.html",
+      "route": "./index.html",
+      "meta": {
+        "title": "Homepage — SkoolTimez",
+        "lang": "uk"
+      },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": true, "icon": "icon-home" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+            "image": { "src": "/images/layout/study.png", "alt": "Homepage illustration", "width": 400 },
+            "eyebrow": "skoolTimez.some.domain/index.html",
+            "title": "Домашня сторінка\nHOMEPAGE",
+            "description": "Стартова сторінка проєкту SkoolTimez.",
+            "actions": [
+              { "text": "На 404.html", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-home",
+            "tags": [
+              { "label": "#index", "href": "./index.html", "highlight": true }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "it",
+      "file_name": "it.html",
+      "route": "./it.html",
+      "meta": { "title": "Інформатційні технології · SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./it.html", "href": "./it.html", "is_current": true, "icon": "icon-it" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+            "image": { "src": "/images/layout/comp-pc.png", "alt": "it", "width": 400 },
+            "eyebrow": "skoolTimez.some.domain/it.html",
+            "title": "Інформатційні\nтехнології",
+            "description": "Тут міститься інформація про ІТ-навички та інструменти.",
+            "actions": [
+              { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-it",
+            "tags": [
+              { "label": "#it", "href": "./it.html", "highlight": true }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "guide",
+      "file_name": "guide.html",
+      "route": "./guide.html",
+      "meta": { "title": "Guide — SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./guide.html", "href": "./guide.html", "is_current": true, "icon": "icon-flower" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+            "image": { "src": "/images/layout/layout-lesson.png", "alt": "Guide layout", "width": 400 },
+            "eyebrow": "skoolTimez.some.domain/guide.html",
+            "title": "Довідник та інструкції\nGUIDE",
+            "description": "Інструкції, алгоритми дій та корисні навчальні блоки.",
+            "actions": [
+              { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-flower",
+            "tags": [ { "label": "#guide", "href": "./guide.html", "highlight": true } ]
+          }
+        }
+      }
+    }
+  ]
+}
