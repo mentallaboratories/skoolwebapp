@@ -2,20 +2,28 @@
 // Root component — wires Header, Hero, Footer together.
 // navItems is the single source of truth for all navigation.
 
+import { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
-import siteData from '../st.json';
-
-const NAV_ITEMS = (siteData.pages || []).map(p => ({
-  href: p.route ?? p.file_name,
-  iconId: p.layout?.header?.navigation_items?.find(i => i.is_current)?.icon || 'icon-home',
-  label: p.file_name || p.route,
-}));
-
-const CURRENT_HREF = './index.html';
 
 export default function App() {
+  const [siteData, setSiteData] = useState({ pages: [] });
+
+  useEffect(() => {
+    fetch('../st.json')
+      .then(r => r.json())
+      .then(data => setSiteData(data))
+      .catch(err => console.error('Failed to load st.json:', err));
+  }, []);
+
+  const NAV_ITEMS = (siteData.pages || []).map(p => ({
+    href: p.route ?? p.file_name,
+    iconId: p.layout?.header?.navigation_items?.find(i => i.is_current)?.icon || 'icon-home',
+    label: p.file_name || p.route,
+  }));
+
+  const CURRENT_HREF = './index.html';
   const homepage = (siteData.pages || []).find(p => p.id === 'index') || siteData.pages?.[0] || null;
 
   return (

@@ -28,6 +28,7 @@
             "eyebrow": "skoolTimez.some.domain/index.html",
             "title": "Домашня сторінка\nHOMEPAGE",
             "description": "Стартова сторінка проєкту SkoolTimez.",
+            "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
             "actions": [
               { "text": "На 404.html", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
             ]
@@ -60,6 +61,7 @@
             "eyebrow": "skoolTimez.some.domain/it.html",
             "title": "Інформатційні\nтехнології",
             "description": "Тут міститься інформація про ІТ-навички та інструменти.",
+             "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
             "actions": [
               { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
             ]
@@ -92,6 +94,7 @@
             "eyebrow": "skoolTimez.some.domain/guide.html",
             "title": "Довідник та інструкції\nGUIDE",
             "description": "Інструкції, алгоритми дій та корисні навчальні блоки.",
+             "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
             "actions": [
               { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
             ]
