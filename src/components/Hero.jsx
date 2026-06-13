@@ -24,9 +24,8 @@ export default function Hero({ heroData = {}, siteBigImage = null }) {
 
             <img src={image.src} alt={image.alt} width={image.width} className="hero-image" />
 
-            <p className="hero-eyebrow">eye {eyebrow}</p>
+            <p className="hero-eyebrow">{eyebrow}</p>
             <h1 className="hero-title" dangerouslySetInnerHTML={{ __html: title.replace(/\n/g, '<br />') }} />
-
             <p className="hero-desc">{description}</p>
 
             {explainer.title && (

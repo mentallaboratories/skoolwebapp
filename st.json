@@ -46,7 +46,7 @@
       "id": "it",
       "file_name": "it.html",
       "route": "./it.html",
-      "meta": { "title": "Інформатційні технології · SkoolTimez", "lang": "uk" },
+      "meta": { "title": "Інформаційні технології · SkoolTimez", "lang": "uk" },
       "layout": {
         "header": {
           "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
@@ -59,7 +59,7 @@
           "hero": {
             "image": { "src": "/images/layout/comp-pc.png", "alt": "it", "width": 400 },
             "eyebrow": "skoolTimez.some.domain/it.html",
-            "title": "Інформатційні\nтехнології",
+            "title": "Інформаційні\nтехнології",
             "description": "Тут міститься інформація про ІТ-навички та інструменти.",
              "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
             "actions": [

@@ -23,8 +23,14 @@ export default function App() {
     label: p.file_name || p.route,
   }));
 
-  const CURRENT_HREF = './index.html';
-  const homepage = (siteData.pages || []).find(p => p.id === 'index') || siteData.pages?.[0] || null;
+  // determine current href from browser location so Hero/Header reflect active page
+  const pathname = typeof window !== 'undefined' ? window.location.pathname : '/';
+  const basename = pathname === '/' || pathname === '' ? 'index.html' : pathname.split('/').pop();
+  const CURRENT_HREF = `./${basename}`;
+
+  // normalize helper: remove leading './' or '/'
+  const normalize = (s) => (s || '').toString().replace(/^\.\//, '').replace(/^\//, '');
+  const homepage = (siteData.pages || []).find(p => normalize(p.route ?? p.file_name) === normalize(basename)) || (siteData.pages || [])[0] || null;
 
   return (
     <>
