@@ -1,7 +1,7 @@
 {
   "project": "SkoolTimez",
   "version": "2024-2025",
-  "big-image": "/images/layout/brain.png",
+  "big-image": "images/layout/brain.png",
   "pages": [
 
 
@@ -32,7 +32,7 @@
               "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
             ]
           },
-            "image": { "src": "/images/layout/study.png", "alt": "Homepage illustration", "width": "100%" },
+            "image": { "src": "images/layout/study.png", "alt": "Homepage illustration", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/index.html",
             "title": "Домашня сторінка\nHOMEPAGE",
             "description": "Стартова сторінка проєкту SkoolTimez.",
@@ -86,7 +86,7 @@
               "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
             ]
           },
-            "image": { "src": "/images/layout/comp-pc.png", "alt": "it", "width": "100%" },
+            "image": { "src": "images/layout/comp-pc.png", "alt": "it", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/it.html",
             "title": "Інформаційні\nтехнології",
             "description": "Тут міститься інформація про ІТ-навички та інструменти.",
@@ -137,7 +137,7 @@
               "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
             ]
           },
-            "image": { "src": "/images/layout/layout-lesson.png", "alt": "Guide layout", "width": "100%" },
+            "image": { "src": "images/layout/layout-lesson.png", "alt": "Guide layout", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/guide.html",
             "title": "Довідник та інструкції\nGUIDE",
             "description": "Інструкції, алгоритми дій та корисні навчальні блоки.",
@@ -189,7 +189,7 @@
               "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
             ]
           },
-            "image": { "src": "/images/layout/timetable.png", "alt": "Time layout", "width": "100%" },
+            "image": { "src": "images/layout/timetable.png", "alt": "Time layout", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/timetable.html",
             "title": "Розклад\nTIMETABLE",
             "description": "Управління своїм розкладом.",
@@ -239,7 +239,7 @@
               "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
             ]
           },
-            "image": { "src": "/images/layout/storage.png", "alt": "Time layout", "width": "100%" },
+            "image": { "src": "images/layout/storage.png", "alt": "Time layout", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/storage.html",
             "title": "Сховище\nSTORAGE",
             "description": "Збереження інформації.",
@@ -297,7 +297,7 @@
               "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
             ]
           },
-            "image": { "src": "/images/layout/esl.jpg", "alt": "Time layout", "width": "100%" },
+            "image": { "src": "images/layout/esl.jpg", "alt": "Time layout", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/esl.html",
             "title": "Розклад\nesl",
             "description": "Про англійські мову з 1 по 9 клас.",
@@ -354,7 +354,7 @@
               "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
             ]
           },
-            "image": { "src": "/images/layout/404.jpg", "alt": "404", "width": "100%" },
+            "image": { "src": "images/layout/404.jpg", "alt": "404", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/404.html",
             "title": "Назва сторінки\n404",
             "description": "Місце для опису сторінки.",
