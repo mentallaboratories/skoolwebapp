@@ -28,17 +28,7 @@ export default function Hero({ heroData = {}, lessonTags = {}, siteBigImage = nu
              <Tags iconId={tagIcon} items={tags} />
             <img src={image.src} alt={image.alt} width={image.width} className="hero-image" />
 
-           
-
-            {explainer.title && (
-              <Article title={explainer.title}>
-                {(explainer.paragraphs || []).map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
-                ))}
-              </Article>
-            )}
-
-            <div className="hero-actions">
+           <div className="hero-actions">
               {actions.map((action, index) => (
                 <Button
                   key={index}
@@ -52,6 +42,14 @@ export default function Hero({ heroData = {}, lessonTags = {}, siteBigImage = nu
                 </Button>
               ))}
             </div>
+
+            {explainer.title && (
+              <Article title={explainer.title}>
+                {(explainer.paragraphs || []).map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </Article>
+            )}
           </div>
         </div>
       </div>

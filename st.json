@@ -30,7 +30,12 @@
             "description": "Стартова сторінка проєкту SkoolTimez.",
             "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
             "actions": [
-              { "text": "На 404.html", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
+              { "text": "know", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "understand", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "use", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "analyze", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "evaluate", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "create", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
             ]
           },
           "lesson_tags": {
@@ -96,7 +101,7 @@
           "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
           "navigation_items": [
             { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
-            { "label": "./guide.html", "href": "./guide.html", "is_current": true, "icon": "icon-flower" }
+            { "label": "./guide.html", "href": "./guide.html", "is_current": true, "icon": "icon-gears" }
           ]
         },
         "main_content": {
@@ -107,7 +112,10 @@
             "description": "Інструкції, алгоритми дій та корисні навчальні блоки.",
              "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
             "actions": [
-              { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
+               { "text": "Вітання,смолток,презентація теми та мети уроку", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Аналіз та оцінка доступних знань та навичок, практика", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Пошук та збереження інформації, розуміння правил", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
+            
             ]
           },
           "lesson_tags": {
@@ -134,7 +142,7 @@
           "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
           "navigation_items": [
             { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
-            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-calendar" }
+            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-clock" }
           ]
         },
         "main_content": {
@@ -171,7 +179,7 @@
           "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
           "navigation_items": [
             { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
-            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-calendar" }
+            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-portfolio" }
           ]
         },
         "main_content": {
@@ -179,6 +187,50 @@
             "image": { "src": "/images/layout/storage.png", "alt": "Time layout", "width": "100%" },
             "eyebrow": "skoolTimez.some.domain/storage.html",
             "title": "Розклад\nSTORAGE",
+            "description": "Збереження інформації.",
+             "paragraphs": "Тут ви навчитеся зберігати вашу конфіденційну інформацію. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "actions": [
+              { "text": "На головну", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-flower",
+            "tags": [ { "label": "#progress", "href": "./index.html", "highlight": false },
+              { "label": "#cloud", "href": "./it.html", "highlight": false },
+              { "label": "#local", "href": "./guide.html", "highlight": true }, 
+               { "label": "#video", "href": "./guide.html", "highlight": true },
+                { "label": "#photo", "href": "./guide.html", "highlight": true },
+                { "label": "#document", "href": "./guide.html", "highlight": true },
+                { "label": "#passwords", "href": "./guide.html", "highlight": true }
+        
+            
+            
+            ]
+              
+         
+         
+            }
+        }
+      }
+    },
+      {
+      "id": "movable-pulley",
+      "file_name": "movable-pulley.html",
+      "route": "./movable-pulley.html",
+      "meta": { "title": "movable-pulley — SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-portfolio" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+            "image": { "src": "/images/layout/lab_pulley.jpg", "alt": "Time layout", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/movable-pulley.html",
+            "title": "Розклад\nMOVABLE PULLEY",
             "description": "Збереження інформації.",
              "paragraphs": "Тут ви навчитеся зберігати вашу конфіденційну інформацію. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "actions": [
