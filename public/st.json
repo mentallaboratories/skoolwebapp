@@ -1,0 +1,392 @@
+{
+  "project": "SkoolTimez",
+  "version": "2024-2025",
+  "big-image": "/images/layout/brain.png",
+  "pages": [
+
+
+
+    
+    {
+      "id": "index",
+      "file_name": "index.html",
+      "route": "./index.html",
+      "meta": {
+        "title": "Homepage — SkoolTimez",
+        "lang": "uk"
+      },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": true, "icon": "icon-home" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+             "explainer_block": {
+            "title": "Про проєкт SkoolTimez",
+            "paragraphs": [
+              "SkoolTimez — це освітній проєкт, спрямований на розвиток навичок та знань учнів у різних сферах навчання.",
+              "Мета проєкту полягає в наданні учням інструментів та ресурсів для ефективного навчання та саморозвитку.",
+              "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
+            ]
+          },
+            "image": { "src": "/images/layout/study.png", "alt": "Homepage illustration", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/index.html",
+            "title": "Домашня сторінка\nHOMEPAGE",
+            "description": "Стартова сторінка проєкту SkoolTimez.",
+            "paragraphs": ["Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
+          "Перш ніж почати, рекомендуємо ознайомитися з основними розділами та інструкціями, які допоможуть вам максимально ефективно використовувати ресурси SkoolTimez."],
+            "actions": [
+              { "text": "Початок.Необхідна інформація для початку роботи", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Правила.Інструменти та матеріали", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Робота.Планування та виконання", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Дослідження.Аналіз та оцінювання роботи", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Рефлексія та самооцінка", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Зразки та шаблони проектів", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
+            ]
+          },
+         
+          "lesson_tags": {
+            "category_icon": "icon-home",
+            "tags": [
+              { "label": "#study", "href": "./study.html", "highlight": false },
+              { "label": "#shelf", "href": "./shelf.html", "highlight": false },
+              { "label": "#worktop", "href": "./worktop.html", "highlight": false },
+              { "label": "#pinboard", "href": "./pinboard.html", "highlight": false },
+              { "label": "#calendar", "href": "./calendar.html", "highlight": false },
+              { "label": "#timetable", "href": "./timetable.html", "highlight": false },
+              { "label": "#schoolbag", "href": "./schoolbag.html", "highlight": false }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "it",
+      "file_name": "it.html",
+      "route": "./it.html",
+      "meta": { "title": "Інформаційні технології · SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./it.html", "href": "./it.html", "is_current": true, "icon": "icon-it" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+              "explainer_block": {
+            "title": "Про проєкт SkoolTimez",
+            "paragraphs": [
+              "SkoolTimez — це освітній проєкт, спрямований на розвиток навичок та знань учнів у різних сферах навчання.",
+              "Мета проєкту полягає в наданні учням інструментів та ресурсів для ефективного навчання та саморозвитку.",
+              "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
+            ]
+          },
+            "image": { "src": "/images/layout/comp-pc.png", "alt": "it", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/it.html",
+            "title": "Інформаційні\nтехнології",
+            "description": "Тут міститься інформація про ІТ-навички та інструменти.",
+             "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
+            "actions": [
+               { "text": "Вступ. Історія та словник", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Правила. Як працює компютер", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Інформаційні процеси", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Засоби оцінювання та автоматизації", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Збереження та оновлення інформації", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Сховище", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-home",
+            "tags": [
+              { "label": "#information", "href": "./index.html", "highlight": true },
+              { "label": "#gadget", "href": "./it.html", "highlight": false },
+              { "label": "#soft", "href": "./guide.html", "highlight": false },
+              { "label": "#hardware", "href": "./timetable.html", "highlight": false },
+              { "label": "#cybersecurity", "href": "./guide.html", "highlight": false },
+              { "label": "#internet", "href": "./storage.html", "highlight": false },
+              { "label": "#coding", "href": "./guide.html", "highlight": false }]
+          }
+        }
+      }
+    },
+    {
+      "id": "guide",
+      "file_name": "guide.html",
+      "route": "./guide.html",
+      "meta": { "title": "Guide — SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./guide.html", "href": "./guide.html", "is_current": true, "icon": "icon-gears" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+              "explainer_block": {
+            "title": "Про проєкт SkoolTimez",
+            "paragraphs": [
+              "SkoolTimez — це освітній проєкт, спрямований на розвиток навичок та знань учнів у різних сферах навчання.",
+              "Мета проєкту полягає в наданні учням інструментів та ресурсів для ефективного навчання та саморозвитку.",
+              "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
+            ]
+          },
+            "image": { "src": "/images/layout/layout-lesson.png", "alt": "Guide layout", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/guide.html",
+            "title": "Довідник та інструкції\nGUIDE",
+            "description": "Інструкції, алгоритми дій та корисні навчальні блоки.",
+             "paragraphs": "Тут ви знайдете загальну інформацію про проєкт, його мету та основні розділи.",
+            "actions": [
+               { "text": "Порада. Як правильно спримати інформацію.", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Пояснення. Як зрозуміти інформацію", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Як зберігати інформацію та використовувати повторно", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Як аналізувати інформацію", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Як оцінювати інформацію", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Як робити проєкти", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
+              
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-home",
+            "tags": [
+              { "label": "#know", "href": "./index.html", "highlight": true },
+              { "label": "#get", "href": "./it.html", "highlight": false },
+              { "label": "#use", "href": "./guide.html", "highlight": false },
+              { "label": "#analyze", "href": "./timetable.html", "highlight": false },
+              { "label": "#evaluate", "href": "./guide.html", "highlight": false },
+              { "label": "#create", "href": "./storage.html", "highlight": false }
+]
+          }
+        }
+      }
+    },
+    {
+      "id": "timetable",
+      "file_name": "timetable.html",
+      "route": "./timetable.html",
+      "meta": { "title": "Timetable — SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-clock" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+              "explainer_block": {
+            "title": "Про проєкт SkoolTimez",
+            "paragraphs": [
+              "SkoolTimez — це освітній проєкт, спрямований на розвиток навичок та знань учнів у різних сферах навчання.",
+              "Мета проєкту полягає в наданні учням інструментів та ресурсів для ефективного навчання та саморозвитку.",
+              "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
+            ]
+          },
+            "image": { "src": "/images/layout/timetable.png", "alt": "Time layout", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/timetable.html",
+            "title": "Розклад\nTIMETABLE",
+            "description": "Управління своїм розкладом.",
+             "paragraphs": "Тут ви знайдете загальну інформацію про планування та організацію свого життя.",
+            "actions": [
+               { "text": "Голдинник. Історія часу та простору", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Календар.Як керувати часом", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Розклад.Планування та виконання завдань", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Список задач.Аналіз та оцінювання роботи", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Зауваження та примітки", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Щоденник", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-flower",
+            "tags": [ { "label": "#time", "href": "./index.html", "highlight": false },
+              { "label": "#table", "href": "./it.html", "highlight": false },
+              { "label": "#timetable", "href": "./guide.html", "highlight": true },
+               { "label": "#daybook", "href": "./guide.html", "highlight": true },
+                { "label": "#calendar", "href": "./guide.html", "highlight": true },
+                { "label": "#planner", "href": "./guide.html", "highlight": true },
+                { "label": "#history", "href": "./guide.html", "highlight": true }]
+          }
+        }
+      }
+    },
+      {
+      "id": "storage",
+      "file_name": "storage.html",
+      "route": "./storage.html",
+      "meta": { "title": "storage — SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./timetable.html", "href": "./timetable.html", "is_current": true, "icon": "icon-portfolio" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+              "explainer_block": {
+            "title": "Про проєкт SkoolTimez",
+            "paragraphs": [
+              "SkoolTimez — це освітній проєкт, спрямований на розвиток навичок та знань учнів у різних сферах навчання.",
+              "Мета проєкту полягає в наданні учням інструментів та ресурсів для ефективного навчання та саморозвитку.",
+              "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
+            ]
+          },
+            "image": { "src": "/images/layout/storage.png", "alt": "Time layout", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/storage.html",
+            "title": "Сховище\nSTORAGE",
+            "description": "Збереження інформації.",
+             "paragraphs": "Тут ви навчитеся зберігати вашу конфіденційну інформацію. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "actions": [
+               { "text": "Гугл Диск", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Локальна мережа", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Флешка", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Робочий зошит", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Підручник", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" },
+              { "text": "Відео", "href": "./404.html", "type": "btn-primary", "icon": "icon-link" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-flower",
+            "tags": [ { "label": "#progress", "href": "./index.html", "highlight": false },
+              { "label": "#cloud", "href": "./it.html", "highlight": false },
+              { "label": "#local", "href": "./guide.html", "highlight": true }, 
+               { "label": "#video", "href": "./guide.html", "highlight": true },
+                { "label": "#photo", "href": "./guide.html", "highlight": true },
+                { "label": "#document", "href": "./guide.html", "highlight": true },
+                { "label": "#passwords", "href": "./guide.html", "highlight": true }
+        
+            
+            
+            ]
+              
+         
+         
+            }
+        }
+      }
+    },
+  
+      {
+      "id": "esl",
+      "file_name": "esl.html",
+      "route": "./esl.html",
+      "meta": { "title": "esl — SkoolTimez", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./esl.html", "href": "./timetable.html", "is_current": true, "icon": "icon-speaking-skill" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+              "explainer_block": {
+            "title": "Про проєкт SkoolTimez",
+            "paragraphs": [
+              "SkoolTimez — це освітній проєкт, спрямований на розвиток навичок та знань учнів у різних сферах навчання.",
+              "Мета проєкту полягає в наданні учням інструментів та ресурсів для ефективного навчання та саморозвитку.",
+              "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
+            ]
+          },
+            "image": { "src": "/images/layout/esl.jpg", "alt": "Time layout", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/esl.html",
+            "title": "Розклад\nesl",
+            "description": "Про англійські мову з 1 по 9 клас.",
+             "paragraphs": "Тут ви навчитеся зберігати вашу конфіденційну інформацію. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "actions": [
+              { "text": "Навички роботи зі словником", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Граматичні інструменти", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Сприймання звукової інформації", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Вимова та говоріння", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Сприймання текстової інформації", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Навички та вміння письма", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-flower",
+            "tags": [ { "label": "#progress", "href": "./index.html", "highlight": false },
+              { "label": "#myyoutubeplaylist", "href": "./it.html", "highlight": false },
+              { "label": "#abc", "href": "./guide.html", "highlight": true }, 
+               { "label": "#transcription", "href": "./guide.html", "highlight": true },
+                { "label": "#grammar", "href": "./guide.html", "highlight": true },
+                { "label": "#vocabulary", "href": "./guide.html", "highlight": true },
+                { "label": "#CEFR", "href": "./guide.html", "highlight": true }
+        
+            
+            
+            ]
+              
+         
+         
+            }
+        }
+      }
+    },
+      {
+      "id": "404",
+      "file_name": "404.html",
+      "route": "./404.html",
+      "meta": { "title": "Назва сторінки\n404", "lang": "uk" },
+      "layout": {
+        "header": {
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "navigation_items": [
+            { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
+            { "label": "./404.html", "href": "./timetable.html", "is_current": true, "icon": "icon-question" }
+          ]
+        },
+        "main_content": {
+          "hero": {
+              "explainer_block": {
+            "title": "Про проєкт SkoolTimez",
+            "paragraphs": [
+              "SkoolTimez — це освітній проєкт, спрямований на розвиток навичок та знань учнів у різних сферах навчання.",
+              "Мета проєкту полягає в наданні учням інструментів та ресурсів для ефективного навчання та саморозвитку.",
+              "Основні розділи включають інформаційні технології, довідник та інструкції, розклад та управління часом, а також сховище для збереження інформації."
+            ]
+          },
+            "image": { "src": "/images/layout/404.jpg", "alt": "404", "width": "100%" },
+            "eyebrow": "skoolTimez.some.domain/404.html",
+            "title": "Назва сторінки\n404",
+            "description": "Місце для опису сторінки.",
+             "paragraphs": "Тут ви маєте писати текст. Далі йде наповнювач: adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "actions": [
+              { "text": "Для розробників", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Яка структура сайту", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Яка HTML", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Як працює CSS  сторінок", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Як працює JS код", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" },
+              { "text": "Як працювати з GitHub", "href": "./index.html", "type": "btn-primary", "icon": "icon-home" }
+            ]
+          },
+          "lesson_tags": {
+            "category_icon": "icon-flower",
+            "tags": [ { "label": "#progress", "href": "./index.html", "highlight": false },
+              { "label": "#youtube", "href": "./it.html", "highlight": false },
+              { "label": "#tiktok", "href": "./guide.html", "highlight": true }, 
+               { "label": "#readme.txt", "href": "./guide.html", "highlight": true },
+                { "label": "#howto.pdf", "href": "./guide.html", "highlight": true },
+                { "label": "#loom", "href": "./guide.html", "highlight": true },
+                { "label": "#AI", "href": "./guide.html", "highlight": true }
+        
+            
+            
+            ]
+              
+         
+         
+            }
+        }
+      }
+    }
+  ]
+}

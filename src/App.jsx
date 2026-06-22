@@ -10,8 +10,11 @@ import Footer from './components/Footer';
 export default function App() {
   const [siteData, setSiteData] = useState({ pages: [] });
 
+
+
+
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}st.json`)
+    fetch('st.json')
       .then(r => r.json())
       .then(data => setSiteData(data))
       .catch(err => console.error('Failed to load st.json:', err));
