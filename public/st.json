@@ -73,7 +73,7 @@
           "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
           "navigation_items": [
             { "label": "./index.html", "href": "./index.html", "is_current": false, "icon": "icon-home" },
-            { "label": "./it.html", "href": "./it.html", "is_current": true, "icon": "icon-it" }
+            { "label": "./it.html", "href": "/it", "is_current": true, "icon": "icon-it" }
           ]
         },
         "main_content": {
