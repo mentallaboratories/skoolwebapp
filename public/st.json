@@ -9,17 +9,17 @@
     
     {
       "id": "index",
-      "file_name": "index.html",
-      "route": "./index.html",
+      "file_name": "index",
+      "route": "index",
       "meta": {
         "title": "Homepage — SkoolTimez",
         "lang": "uk"
       },
       "layout": {
         "header": {
-          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "./index.html" },
+          "logo": { "text_main": "Skool", "text_secondary": "Timez", "link": "index.html" },
           "navigation_items": [
-            { "label": "./index.html", "href": "./index.html", "is_current": true, "icon": "icon-home" }
+            { "label": "./index.html", "href": "index", "is_current": true, "icon": "icon-home" }
           ]
         },
         "main_content": {
@@ -66,7 +66,7 @@
     {
       "id": "it",
       "file_name": "it.html",
-      "route": "./it.html",
+      "route": "/it",
       "meta": { "title": "Інформаційні технології · SkoolTimez", "lang": "uk" },
       "layout": {
         "header": {
