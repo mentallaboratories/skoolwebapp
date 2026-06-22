@@ -66,7 +66,7 @@
     {
       "id": "it",
       "file_name": "it.html",
-      "route": "/it",
+      "route": "./it.html",
       "meta": { "title": "Інформаційні технології · SkoolTimez", "lang": "uk" },
       "layout": {
         "header": {
